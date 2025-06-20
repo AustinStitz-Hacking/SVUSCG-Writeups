@@ -77,6 +77,6 @@ Web
 * [Beg-o-Matic 3000 (412) - Solved](https://github.com/AustinStitz-Hacking/SVUSCG-Writeups/tree/main/web/Beg_O_Matic_3000)
 * Burger Converter (490)
 * [Deep-Fried-Inator (483) - Solved](https://github.com/AustinStitz-Hacking/SVUSCG-Writeups/tree/main/web/Deep_Fried_Inator)
-* L33tcoder (238) - Solved
+* [L33tcoder (238) - Solved](https://github.com/AustinStitz-Hacking/SVUSCG-Writeups/tree/main/web/L33tcoder)
 * Repository (497)
 * Scratchpad (440) - Solved
