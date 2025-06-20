@@ -68,7 +68,7 @@ Pwn:
 Reverse Engineering:
 * Better Packet Filter (496)
 * Busy Beaver (497)
-* OLED Gadget Password Recovery (251) - Solved
+* [OLED Gadget Password Recovery (251) - Solved](https://github.com/AustinStitz-Hacking/SVUSCG-Writeups/tree/main/rev/OLED_Gadget_Password_Recovery)
 * Super Secure (477)
 
 Warmup
