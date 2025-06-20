@@ -177,6 +177,7 @@ print(full_fetch)
 
 
 Now we can run this!
+
 ![SQLi](../../images/Pasted%20image%2020250616205151.png)
 
 After logging in, it ultimately becomes easier to just copy the request from reviewing a revision of our own file so we can include the necessary credentials, but we still use the same payload.
