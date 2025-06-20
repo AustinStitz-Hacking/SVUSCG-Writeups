@@ -36,7 +36,7 @@ Crypto:
 * BezoutBezoutBezout (100) - Solved
 * Decryptonite (499)
 * Lost At Sea (356)
-* Token EncryptSHAn (392) - Solved
+* [Token EncryptSHAn (392) - Solved](https://github.com/AustinStitz-Hacking/SVUSCG-Writeups/tree/main/crypto/Token_EncryptSHAn)
 * Chinese Rabinder Theorem (462)
 * LLL Backwards is Still LLL (342)
 * Prime Suspects (100) - Solved
