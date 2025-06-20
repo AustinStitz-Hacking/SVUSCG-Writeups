@@ -79,4 +79,4 @@ Web
 * [Deep-Fried-Inator (483) - Solved](https://github.com/AustinStitz-Hacking/SVUSCG-Writeups/tree/main/web/Deep_Fried_Inator)
 * [L33tcoder (238) - Solved](https://github.com/AustinStitz-Hacking/SVUSCG-Writeups/tree/main/web/L33tcoder)
 * Repository (497)
-* Scratchpad (440) - Solved
+* [Scratchpad (440) - Solved](https://github.com/AustinStitz-Hacking/SVUSCG-Writeups/tree/main/web/Scratchpad)
