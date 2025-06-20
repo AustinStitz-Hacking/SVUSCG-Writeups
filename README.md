@@ -41,7 +41,7 @@ Crypto:
 * [Token EncryptSHAn (392) - Solved](https://github.com/AustinStitz-Hacking/SVUSCG-Writeups/tree/main/crypto/Token_EncryptSHAn)
 * Chinese Rabinder Theorem (462)
 * LLL Backwards is Still LLL (342)
-* Prime Suspects (100) - Solved
+* [Prime Suspects (100) - Solved](https://github.com/AustinStitz-Hacking/SVUSCG-Writeups/tree/main/crypto/Prime_Suspects)
 
 Forensics:
 * Deleted (100) - Solved
