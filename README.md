@@ -10,6 +10,8 @@ If you want the challenge descriptions, files, and some official writeups for an
 
 Here, I include several writeups for the challenges I solved. I'm also going to include a few writeups for challenges I solved after the fact but where I maybe missed a small detail. Here are all the challenges:
 
+*Note: More writeups will be added later*
+
 Beginner's Game Room:
 * Badge Brigade (Forensics) (100) - Solved
 * Cookie (Web) (100) - Solved
