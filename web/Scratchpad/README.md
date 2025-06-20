@@ -6,7 +6,7 @@ My new note-taking app is great for jotting down quick thoughts (or flags)!
 
 ## Files
 
-* [scratchpad.zip](scratchpad.zip)
+* [scratchpad.zip](https://github.com/jselliott/USCyberOpen2025/blob/main/challenges/web/scratchpad/dist/scratchpad.zip)
 
 ## Writeup
 
